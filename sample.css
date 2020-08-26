@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color:rgba(255, 179, 80, 0.753);
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+#header {
+display: flex;
+border-bottom: 2px solid gray;
+padding-bottom: 5px;
+}
+.logo {
+    background-image: url(..//sample.html/zozor_logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.logo-name {
+margin-top: 30px;
+margin-right: 150px;
+font-family: cursive;
+font-weight: 400;
+font-size: 40px;
+}
+.diaries {
+    margin-top: 100px;
+}
+.menu {
+    margin: 0 auto;
+    margin-top: 100;
+}
+.menu ul {
+   display: flex;
+   list-style-type:none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.menu li {
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+.middle-section {
+    padding-top: 5px;
+}
+.middle-section-image {
+    position: relative;
+    z-index: 0;
+    display: inline-flex;
+}
+.article  {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-top: 200px;
+    background-color:orangered;
+}
+ .article p {
+    color: white;
+}
+.article a {
+    text-decoration: none;
+    background-color: rgb(187, 27, 27);
+    color: black;
+    margin: 0 auto;
+    margin-right: 100px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px; 
+}
+.middle-section-paragraph {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+
+}
+.pin {
+    display: flex;
+}
+.traveller {
+    width: 70%;
+}
+.about-author {
+   width: 30%;
+   background-color: gray;
+   border-radius: 10px;
+   color: white;
+   margin-right: 20px;
+}
+.arrow {
+    margin-top: 100px;
+}
+.about-author p {
+   padding: 5px;
+}
+.about-author h3 {
+padding-top: 10px;
+}
+.image-zozor {
+ margin-left: 80px;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+}
+.toparrow {
+    margin-left: 500px;
+}
+
+
